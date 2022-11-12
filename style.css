@@ -11,10 +11,19 @@ header{
     font-family: 'Dosis', sans-serif;
     font-size: 20px;
 }
+main{
+    display: flex;
+}
 .izquierdo{
-    margin: 5px;
     width: 70%;
     color: cadetblue;
+}
+.derecho{
+    width: 30%;
+}
+.avatar{
+    display: flex;
+    justify-content: center;
 }
 h3{
     margin-top: 20px;
@@ -26,13 +35,7 @@ h3{
 p{
     margin: 10px;
 }
-.derecho{
-    position: absolute;
-    top: 105px; left: 1090px;
-    width: 28%;
-}
 img{
-    margin-left: 50px;
     border: 2px solid rgb(92, 92, 92);
 }
 h4{
